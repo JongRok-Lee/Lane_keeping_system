@@ -14,7 +14,6 @@ width, height = 640, 480            # 영상의 크기
 init_l, init_r = 320, 320           # 좌우 차선 차선 탐색을 위한 픽셀 시작 점
 roi_w, roi_h = 200, 20              # 좌우 차선 ROI 영역의 크기 값
 lane_width = 440                    # 차선 너비 픽셀
-kernal = cv2.getStructuringElement(cv2.MORPH_RECT, (3, 3))
 no_l, no_r = 0, 0
 speed = 0
 ################## 변수 ########################################
